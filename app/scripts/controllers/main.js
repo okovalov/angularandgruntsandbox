@@ -10,8 +10,9 @@
 angular.module('swFrontApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
-      '!!!! HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+      'HTML5 Boilerplate',
+      'Karma',
+      'Foo',
+      'Foo Bar'
     ];
   });

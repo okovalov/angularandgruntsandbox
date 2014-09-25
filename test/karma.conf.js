@@ -35,7 +35,8 @@ module.exports = function(config) {
     exclude: [],
 
     // web server port
-    port: 8080,
+    port: 9002,
+    //port: 8080,
 
     // Start these browsers, currently available:
     // - Chrome
@@ -45,9 +46,11 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: [
-      'PhantomJS'
-    ],
+    // browsers: [
+    //   'PhantomJS'
+    // ],
+
+    browsers: ['PhantomJS'],
 
     // Which plugins to enable
     plugins: [
@@ -66,9 +69,9 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
 
     // Uncomment the following lines if you are using grunt's server to run the tests
-    // proxies: {
-    //   '/': 'http://localhost:9000/'
-    // },
+    //proxies: {
+      //'/': 'http://localhost:9000/'
+    //},
     // URL root prevent conflicts with the site root
     // urlRoot: '_karma_'
   });
